@@ -1,0 +1,32 @@
+// text color
+$veryDarkDesaturated: hsl(238, 29%, 16%);
+$softRed: hsl(14, 88%, 65%);
+$veryDarkGrayishBlue: hsl(237, 12%, 33%);
+$darkGrayishBlue: hsl(240, 6%, 50%);
+
+// background gradient
+$softViolet: hsl(273, 75%, 66%);
+$softBlue: hsl(240, 73%, 65%);
+
+// divider color
+$ligthGrayishBlue: hsl(240, 5%, 91%);
+
+// mxins
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin mobile {
+  @media screen and (max-width: 47.9375rem) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 89.9375rem) {
+    @content;
+  }
+}
